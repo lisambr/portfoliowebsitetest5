@@ -14,17 +14,3 @@ function onejump(){
     console.log(STARTONEJUMP);
 }
 
-//NAVBAR//
-
-window.onscroll = function() {please};
-
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
-
-function please {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
