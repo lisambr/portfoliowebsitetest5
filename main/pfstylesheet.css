@@ -572,3 +572,34 @@ main {
         line-height: 30px;
     }
 }
+
+/*IMAGE MOVE*/
+
+.onejump {
+    transform-origin: 50% 50%;
+    animation: numeroquatro .5s linear;
+    animation-duration: 1s;
+}
+
+@keyframes numeroquatro {
+    0% {
+        transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+    }
+
+    25% {
+        transform: translate3d(0, -30%, 0) scale3d(.7, 1.5, 1);
+    }
+
+    50% {
+        transform: translate3d(0, -50%, 0) scale3d(1.5, .7, 1);
+    }
+
+    75% {
+        transform: translate3d(0, -30%, 0) scale3d(.7, 1.5, 1);
+    }
+
+    100% {
+        transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+    }
+}
+
