@@ -263,22 +263,6 @@ img {
     transform: translate(-50%, -50%);
 }
 
-/*
-.titlepopup{
-    text-align: center;
-
-}
-
-a{
-    text-decoration: none;
-}
-
-h1{
-    color: dimgray;
-    background-color: ghostwhite;
-    opacity: .7;
-}*/
-
 #icon1 {
     font-size: 50px;
     text-decoration: none;
@@ -316,16 +300,7 @@ h1{
 #icon4:hover {
     color: #00A89F;
 }
-/*HOVER BOXES
-#test{
-    display: inline-block;
-    background-image: url(/assets/projects/000102a.png)
-}
 
-#test:hover{
-    opacity: 1;
-
-}*/
 
 /*ASSIGNMENTS*/
 
