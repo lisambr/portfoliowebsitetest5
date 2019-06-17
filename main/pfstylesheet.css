@@ -38,11 +38,6 @@ li a:hover {
     color: #00766F;
 }
 
-/*li a:hover {
-    background-color: #00A89F;
-    color: white;
-}*/
-
 .active {
     color: #00A89F;
 }
@@ -64,9 +59,6 @@ li a:hover {
     padding-top: 90px;
 }
 
-/*.pfoliotxt{
-    line-height: 200%;
-}*/
 /*SQUARES*/
 b {
     letter-spacing: 2.5px;
@@ -254,15 +246,6 @@ img {
     object-fit: fill;
 }
 
-
-.titlepopup {
-    display: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 #icon1 {
     font-size: 50px;
     text-decoration: none;
@@ -282,6 +265,7 @@ img {
 #icon2:hover {
     color: #00A89F;
 }
+
 #icon3 {
     font-size: 50px;
     text-decoration: none;
@@ -291,6 +275,7 @@ img {
 #icon3:hover {
     color: #00A89F;
 }
+
 #icon4 {
     font-size: 50px;
     text-decoration: none;
