@@ -16,12 +16,12 @@ function onejump(){
 
 //NAVBAR//
 
-window.onscroll = function() {myFunction()};
+window.onscroll = function() {please};
 
 var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
 
-function myFunction() {
+function please {
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky")
   } else {
